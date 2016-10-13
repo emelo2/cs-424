@@ -12,26 +12,35 @@
   /*
     Use D3 to load the GeoJSON file
     */
+    var width = 800;
+    var height = 600;
     var canvas = d3.select("body")
       .append("svg")
       .attr("width", 900)
-      .attr("height", 760);
+      .attr("height", 760)
 
-    d3.json("chicago.geojson", function(data){
-      var group = canvas.selectAll("g")
-        .data(data.features)
-        .enter()
-        .append("g")
-        debugger;
-
-      var projection = d3.geo.mercator().scale(50000).translate([0,1000]);
+    d3.json("Chicago2.geojson", function(data){
+      
+      var projection = d3.geo.mercator()
+        .scale(1)
+        .translate([0,0])
+        .precision(0);
 
       var path = d3.geo.path().projection(projection);
 
-      var areas = group.append("path")
-      .attr("d", path)
-      .attr("class" , "area")
-      .attr("fill", "pink");
+      var bounds = path.bounds(data);
+
+      var scale = .95 / Math.max((bounds[1][0] - bounds[0][0]) / width,
+        (bounds[1][1] - bounds[0][1]) / height);
+      
+      var transl = [(width - scale * (bounds[1][0] + bounds[0][0])) / 2,
+        (height - scale * (bounds[1][1] + bounds[0][1])) / 2];
+        projection.scale(scale).translate(transl);
+
+      canvas.selectAll("path").data(data.features).enter().append("path")
+        .attr("d", path)
+        .style("fill", "pink")
+        .style("stroke", "black");
       });
   </script>
 </body>
