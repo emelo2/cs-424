@@ -3,32 +3,35 @@
 <head>
   <meta charset="utf-8">
   <script src="http://d3js.org/d3.v3.min.js"></script>
-    <style>
+    <style type="text/css">
     </style>
-    <script type="text/javascript">  
-      function draw(geo_data) {
-        "use strict";
-        var margin = 75,
-            width = 1400 - margin,
-            height = 600 - margin;
-
-        var svg = d3.select("body")
-            .append("svg")
-            .attr("width", width + margin)
-            .attr("height", height + margin)
-            .append('g')
-            .attr('class', 'map');
-            debugger;
-      };
-      </script>
   </head>
 <body>
   <script type="text/javascript">
+
   /*
     Use D3 to load the GeoJSON file
     */
-    
-d3.json("chicago.json", draw);
+    var canvas = d3.select("body")
+      .append("svg")
+      .attr("width", 900)
+      .attr("height", 760);
+
+    d3.json("chicago.geojson", function(data){
+      var group = canvas.selectAll("g")
+        .data(data.features)
+        .enter()
+        .append("g");
+
+      var projection = d3.geo.mercator().scale(5000);
+
+      var path = d3.geo.path().projection(projection);
+
+      var areas = group.append("path")
+      .attr("d", path)
+      .attr("class" , "area")
+      .attr("fill", "red");
+      });
   </script>
 </body>
 </html>
