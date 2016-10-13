@@ -7,7 +7,7 @@
     </style>
   </head>
 <body>
-  <script type="text/javascript">
+  <script>
 
   /*
     Use D3 to load the GeoJSON file
@@ -21,16 +21,17 @@
       var group = canvas.selectAll("g")
         .data(data.features)
         .enter()
-        .append("g");
+        .append("g")
+        debugger;
 
-      var projection = d3.geo.mercator().scale(5000);
+      var projection = d3.geo.mercator().scale(50000).translate([0,1000]);
 
       var path = d3.geo.path().projection(projection);
 
       var areas = group.append("path")
       .attr("d", path)
       .attr("class" , "area")
-      .attr("fill", "red");
+      .attr("fill", "pink");
       });
   </script>
 </body>
