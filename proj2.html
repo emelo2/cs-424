@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style type="text/css">
+    </style>
+  </head>
+<body>
+  <script type="text/javascript">
+
+  /*
+    Use D3 to load the GeoJSON file
+    */
+    var width = 800;
+    var height = 600;
+    var canvas = d3.select("body")
+      .append("svg")
+      .attr("width", 900)
+      .attr("height", 760)
+    var color = d3.scaleQuantize()
+                .range(["rgb(240, 242, 242)"," rgb(199,245,247)","rgb(175,215,217)","rgb(101,179,179)","rgb(36,138,150)","rgb(11,99,118)","rgb(7,62,74)"]);
+
+    var projection = d3.geoMercator()
+      .scale(1)
+      .translate([0,0])
+      .precision(0);
+
+    var path = d3.geoPath().projection(projection);
+
+
+
+
+    d3.csv('AverageUsage.csv', function(error,data){
+
+          if(error){
+            console.log(error);
+          }
+
+
+          else{
+            //console.log(data);
+              color.domain([
+                d3.min(data, function(d) { return d.TOTAL; }), 
+                d3.max(data, function(d) { return d.TOTAL; })
+              ]);
+
+              d3.json("Chicago2.geojson", function(json) {
+
+              //Merge the data
+              for (var i = 0; i < data.length; i++) {
+        
+                //Grab commnity name from the csv file
+                var dataNeighborhood = data[i].COMMUNITY;
+            
+                //Grab data value, and convert from string to float
+                var dataValue = parseFloat(data[i].TOTAL);
+        
+                for (var j = 0; j < json.features.length; j++) {
+            
+                  var jNeighborhood = json.features[j].properties.community;
+        
+                  if (dataNeighborhood == jNeighborhood) {
+            
+                    json.features[j].properties.value = dataValue;
+                
+                    break;
+                
+                  }
+                }   
+              }
+
+
+
+              var bounds = path.bounds(json);
+
+              var scale = .95 / Math.max((bounds[1][0] - bounds[0][0]) / width,
+                (bounds[1][1] - bounds[0][1]) / height);
+
+              var transl = [(width - scale * (bounds[1][0] + bounds[0][0])) / 2,
+                (height - scale * (bounds[1][1] + bounds[0][1])) / 2];
+                projection.scale(scale).translate(transl);
+                //Bind data and create one path per GeoJSON feature
+                
+              canvas.selectAll("path")
+                .data(json.features)
+                .enter()
+                .append("path")
+                .attr("d", path)
+                .style("fill", function(d) {
+                //Get data value
+                  var value = d.properties.value;
+                
+                  if (value) {
+                    //If value exists…
+                    return color(value);
+                  }
+                  else {
+                    //If value is undefined…
+                    return "#ccc";
+                  }
+                }
+              );
+      
+          });
+
+
+
+
+          }
+
+
+      });
+
+
+
+
+    
+  </script>
+</body>
+</html>
