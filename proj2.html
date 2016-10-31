@@ -3,7 +3,21 @@
 <head>
   <meta charset="utf-8">
   <script src="https://d3js.org/d3.v4.min.js"></script>
+
     <style type="text/css">
+
+      div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 50px;
+        padding: 4px;
+        font: 10px sans-serif;
+        background: lightsteelblue;
+        border: 1px;
+        border-radius: 10px;
+        pointer-events: none;
+      } 
     </style>
   </head>
 <body>
@@ -14,21 +28,31 @@
     */
     var width = 800;
     var height = 600;
+
+
     var canvas = d3.select("body")
       .append("svg")
       .attr("width", 900)
       .attr("height", 760)
-    var color = d3.scaleQuantile()
-                .range([" rgb(199,245,247)","rgb(175,215,217)","rgb(101,179,179)","rgb(36,138,150)","rgb(11,99,118)","rgb(7,62,74)"]);
+
+
+    var color = d3.scaleThreshold()
+                .range(["rgb(247,251,255)","rgb(222,235,247)","rgb(198,219,239)","rgb(158,202,225)","rgb(107,174,214)"
+                  ,"rgb(66,146,198)","rgb(33,113,181)","rgb(8,81,156)","rgb(8,48,107)","rgb(0,0,0)"]);
+
 
     var projection = d3.geoMercator()
       .scale(1)
       .translate([0,0])
       .precision(0);
 
+
     var path = d3.geoPath().projection(projection);
 
 
+    var div = d3.select("body").append("div")
+          .attr("class", "tooltip")
+          .style("opacity", 0);
 
 
     d3.csv('electricity.csv', function(error,data){
@@ -40,11 +64,13 @@
 
           else{
             //console.log(data);
-              color.domain([
+              color.domain(
+                [15288,12162735,24310183, 36457630, 48605077, 60752524, 72899971, 85047418, 97194866]
+              );
+              /*
                 d3.min(data, function(d) { return d.Total; }), 
                 d3.max(data, function(d) { return d.Total; })
-              ]);
-
+*/
               d3.json("Chicago2.geojson", function(json) {
 
               //Merge the data
@@ -87,6 +113,7 @@
                 .enter()
                 .append("path")
                 .attr("d", path)
+                .style("stroke", "grey")
                 .style("fill", function(d) {
                 //Get data value
                   var value = d.properties.value;
@@ -99,8 +126,38 @@
                     //If value is undefined…
                     return "#ccc";
                   }
-                }
-              );
+                })
+                .on("mouseover", function(d){
+                    d3.select(this).style("fill", "pink")
+                      .transition().duration(300)
+                      .style("opacity", 1);
+                    div.transition().duration(300)
+                      .style("opacity", 1)
+                    div.html(d.properties.community + "<br/>" + " socioeconomic status : ")
+                      .style("left", (d3.event.pageX) + "px")
+                      .style("top", (d3.event.pageY -30) + "px");
+                })
+                .on("mouseout", function(d){
+                  d3.select(this)
+                    .transition().duration(300)
+                    .style("opacity", 0.8)
+                    .style("fill", function(d) {
+                //Get data value
+                  var value = d.properties.value;
+                
+                  if (value) {
+                    //If value exists…
+                    return color(value);
+                  }
+                  else {
+                    //If value is undefined…
+                    return "#ccc";
+                  }
+                });
+                  div.transition().duration(300)
+                    .style("opacity", 0)
+                });
+              
       
           });
 
