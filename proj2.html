@@ -18,8 +18,8 @@
       .append("svg")
       .attr("width", 900)
       .attr("height", 760)
-    var color = d3.scaleQuantize()
-                .range(["rgb(240, 242, 242)"," rgb(199,245,247)","rgb(175,215,217)","rgb(101,179,179)","rgb(36,138,150)","rgb(11,99,118)","rgb(7,62,74)"]);
+    var color = d3.scaleQuantile()
+                .range([" rgb(199,245,247)","rgb(175,215,217)","rgb(101,179,179)","rgb(36,138,150)","rgb(11,99,118)","rgb(7,62,74)"]);
 
     var projection = d3.geoMercator()
       .scale(1)
@@ -31,7 +31,7 @@
 
 
 
-    d3.csv('AverageUsage.csv', function(error,data){
+    d3.csv('electricity.csv', function(error,data){
 
           if(error){
             console.log(error);
@@ -41,8 +41,8 @@
           else{
             //console.log(data);
               color.domain([
-                d3.min(data, function(d) { return d.TOTAL; }), 
-                d3.max(data, function(d) { return d.TOTAL; })
+                d3.min(data, function(d) { return d.Total; }), 
+                d3.max(data, function(d) { return d.Total; })
               ]);
 
               d3.json("Chicago2.geojson", function(json) {
@@ -51,10 +51,10 @@
               for (var i = 0; i < data.length; i++) {
         
                 //Grab commnity name from the csv file
-                var dataNeighborhood = data[i].COMMUNITY;
+                var dataNeighborhood = data[i].Community;
             
                 //Grab data value, and convert from string to float
-                var dataValue = parseFloat(data[i].TOTAL);
+                var dataValue = parseFloat(data[i].Total);
         
                 for (var j = 0; j < json.features.length; j++) {
             
