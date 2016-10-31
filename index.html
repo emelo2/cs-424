@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+<link rel="stylesheet" type="text/css" href="styles/
+global.css" />
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="Donut3D.js"></script>
+
+
+ <div id="header">
+    <div class ="logo"><a href="#">User<span>Interface</span></a></div>
+  </div>
+  
+  <div id="container">
+    <div class="sidebar">
+      
+    </div>
+
+    <div class = "content">
+
+      
+    </div>
+  </div>
+
+
+<script>
+
+
+//Random hardcoded color for each month
+var salesData=[
+  {label:"Jan", color:"#E88484"},
+  {label:"Feb", color:"#E884C5"},
+  {label:"Mar", color:"#D284E8"},
+  {label:"Apr", color:"#A484E8"},
+  {label:"May", color:"#8490E8"},
+  {label:"Jun", color:"#84B3E8"},
+  {label:"Jul", color:"#84D6E8"},
+  {label:"Aug", color:"#84E8E3"},
+  {label:"Sep", color:"#84E891"},
+  {label:"Oct", color:"#C2E884"},
+  {label:"Nov", color:"#E8E884"},
+  {label:"Dec", color:"#E8B884"}
+];
+
+
+
+var svg = d3.select("body").append("svg").attr("width",700).attr("height",300);
+
+svg.append("g").attr("id","cDonut"); 
+                          //Community Donut
+
+Donut3D.draw("cDonut", randomData(), 150, 150, 130, 100, 30, 0.4);
+  
+function changeData(){
+
+  Donut3D.transition("cDonut", randomData(), 130, 100, 30, 0.4);
+}
+
+function randomData(){
+  return salesData.map(function(d){ 
+    return {label:d.label, value:1000*Math.random(), color:d.color};});
+}
+
+</script>
+
+<body>
+
+  <button onClick="changeData()">Change Data</button>
+
+</body>
+
+</head>
+</html>
+
+
+
