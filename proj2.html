@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+
 
     <style type="text/css">
 
@@ -96,6 +98,34 @@
                 }   
               }
 
+              d3.csv("socioeconomicStatus.csv", function(socio){
+                  //Merge the data
+              for (var i = 0; i < socio.length; i++) {
+        
+                //Grab commnity name from the csv file
+                var dataNeighborhood = socio[i].COMMUNITY;
+            
+                //Grab data value, and convert from string to float
+                var rank = parseFloat(socio[i].INDEX);
+                var income = parseFloat(socio[i].INCOME);
+        
+                for (var j = 0; j < json.features.length; j++) {
+            
+                  var jNeighborhood = json.features[j].properties.community;
+        
+                  if (dataNeighborhood == jNeighborhood) {
+            
+                    json.features[j].properties.rank = rank;
+                    json.features[j].properties.in = income;
+                
+                    break;
+                
+                  }
+                }   
+              }
+
+              });
+
 
 
               var bounds = path.bounds(json);
@@ -133,7 +163,7 @@
                       .style("opacity", 1);
                     div.transition().duration(300)
                       .style("opacity", 1)
-                    div.html(d.properties.community + "<br/>" + " socioeconomic status : ")
+                    div.html(d.properties.community + "<br/>" + " hardship rank: " + d.properties.rank + "<br/>" + " per Capita Income " + d.properties.in)
                       .style("left", (d3.event.pageX) + "px")
                       .style("top", (d3.event.pageY -30) + "px");
                 })
