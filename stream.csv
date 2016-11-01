@@ -1,0 +1,925 @@
+key,name,date,value
+5,Albany Park,1990,1520056
+5,Albany Park,1991,1702023
+5,Albany Park,1992,1703714
+5,Albany Park,1993,1646921
+5,Albany Park,1994,2141045
+5,Albany Park,1995,3350039
+5,Albany Park,1996,3874318
+5,Albany Park,1997,2841312
+5,Albany Park,1998,1933076
+5,Albany Park,1999,1935290
+5,Albany Park,2000,2815237
+5,Albany Park,2001,3006797
+6,Archer Heights,1990,2563748
+6,Archer Heights,1991,2527124
+6,Archer Heights,1992,2411892
+6,Archer Heights,1993,2556100
+6,Archer Heights,1994,3226767
+6,Archer Heights,1995,4892737
+6,Archer Heights,1996,6037846
+6,Archer Heights,1997,4741099
+6,Archer Heights,1998,3052046
+6,Archer Heights,1999,2805395
+6,Archer Heights,2000,3961093
+6,Archer Heights,2001,4466966
+8,Armour Square,1990,297071
+8,Armour Square,1991,288503
+8,Armour Square,1992,275503
+8,Armour Square,1993,267304
+8,Armour Square,1994,326645
+8,Armour Square,1995,414579
+8,Armour Square,1996,690191
+8,Armour Square,1997,628899
+8,Armour Square,1998,417782
+8,Armour Square,1999,306051
+8,Armour Square,2000,354354
+8,Armour Square,2001,447567
+3,Ashburn,1990,5644859
+3,Ashburn,1991,5538011
+3,Ashburn,1992,5399230
+3,Ashburn,1993,5545123
+3,Ashburn,1994,7721287
+3,Ashburn,1995,12192411
+3,Ashburn,1996,13567533
+3,Ashburn,1997,10005017
+3,Ashburn,1998,6683138
+3,Ashburn,1999,6156970
+3,Ashburn,2000,8891564
+3,Ashburn,2001,9849723
+7,Auburn Gresham,1990,4166472
+7,Auburn Gresham,1991,4242962
+7,Auburn Gresham,1992,4095681
+7,Auburn Gresham,1993,3941315
+7,Auburn Gresham,1994,4750715
+7,Auburn Gresham,1995,6912794
+7,Auburn Gresham,1996,7370271
+7,Auburn Gresham,1997,5957904
+7,Auburn Gresham,1998,4462355
+7,Auburn Gresham,1999,4641787
+7,Auburn Gresham,2000,6712270
+7,Auburn Gresham,2001,7492148
+7,Austin,1990,4757364
+7,Austin,1991,5323254
+7,Austin,1992,5039442
+7,Austin,1993,4662352
+7,Austin,1994,5511764
+7,Austin,1995,7152602
+7,Austin,1996,8876473
+7,Austin,1997,8590142
+7,Austin,1998,6380337
+7,Austin,1999,5349730
+7,Austin,2000,7112598
+7,Austin,2001,9086092
+4,Avalon Park,1990,1523025
+4,Avalon Park,1991,1582411
+4,Avalon Park,1992,1442175
+4,Avalon Park,1993,1471036
+4,Avalon Park,1994,1710162
+4,Avalon Park,1995,2504861
+4,Avalon Park,1996,2787512
+4,Avalon Park,1997,2335998
+4,Avalon Park,1998,1665283
+4,Avalon Park,1999,1604752
+4,Avalon Park,2000,2420097
+4,Avalon Park,2001,2714059
+4,Avondale,1990,1027713
+4,Avondale,1991,1058645
+4,Avondale,1992,1094679
+4,Avondale,1993,1033253
+4,Avondale,1994,1364030
+4,Avondale,1995,2109457
+4,Avondale,1996,2412518
+4,Avondale,1997,1861778
+4,Avondale,1998,1277257
+4,Avondale,1999,1201531
+4,Avondale,2000,1622556
+4,Avondale,2001,1893521
+7,Belmont Cragin,1990,4321075
+7,Belmont Cragin,1991,4808828
+7,Belmont Cragin,1992,4632496
+7,Belmont Cragin,1993,4215190
+7,Belmont Cragin,1994,5260636
+7,Belmont Cragin,1995,7980149
+7,Belmont Cragin,1996,9412549
+7,Belmont Cragin,1997,8348899
+7,Belmont Cragin,1998,5487361
+7,Belmont Cragin,1999,4746362
+7,Belmont Cragin,2000,7064406
+7,Belmont Cragin,2001,8182542
+1,Beverly,1990,3640743
+1,Beverly,1991,3914520
+1,Beverly,1992,3543763
+1,Beverly,1993,3717074
+1,Beverly,1994,5276520
+1,Beverly,1995,8122411
+1,Beverly,1996,7989421
+1,Beverly,1997,5548465
+1,Beverly,1998,4170314
+1,Beverly,1999,3943808
+1,Beverly,2000,6532355
+1,Beverly,2001,5917261
+4,Bridgeport,1990,1432518
+4,Bridgeport,1991,1505713
+4,Bridgeport,1992,1436611
+4,Bridgeport,1993,1396070
+4,Bridgeport,1994,1538408
+4,Bridgeport,1995,2174275
+4,Bridgeport,1996,3214064
+4,Bridgeport,1997,3190274
+4,Bridgeport,1998,2216819
+4,Bridgeport,1999,1688117
+4,Bridgeport,2000,1827677
+4,Bridgeport,2001,2450848
+8,Brighton Park,1990,1467890
+8,Brighton Park,1991,1489041
+8,Brighton Park,1992,1356853
+8,Brighton Park,1993,1320261
+8,Brighton Park,1994,1499679
+8,Brighton Park,1995,2130844
+8,Brighton Park,1996,2953212
+8,Brighton Park,1997,3064042
+8,Brighton Park,1998,1989410
+8,Brighton Park,1999,1551733
+8,Brighton Park,2000,1928612
+8,Brighton Park,2001,2385363
+7,Burnside,1990,327518
+7,Burnside,1991,307124
+7,Burnside,1992,309703
+7,Burnside,1993,298203
+7,Burnside,1994,362046
+7,Burnside,1995,489229
+7,Burnside,1996,574098
+7,Burnside,1997,409143
+7,Burnside,1998,320751
+7,Burnside,1999,369243
+7,Burnside,2000,517420
+7,Burnside,2001,537427
+3,Calumet Heights,1990,2409369
+3,Calumet Heights,1991,2236650
+3,Calumet Heights,1992,2254978
+3,Calumet Heights,1993,2201986
+3,Calumet Heights,1994,2631495
+3,Calumet Heights,1995,4347715
+3,Calumet Heights,1996,4661996
+3,Calumet Heights,1997,3236269
+3,Calumet Heights,1998,2354292
+3,Calumet Heights,1999,2657890
+3,Calumet Heights,2000,3494284
+3,Calumet Heights,2001,3888954
+6,Chatham,1990,2602776
+6,Chatham,1991,2595315
+6,Chatham,1992,2410431
+6,Chatham,1993,2254110
+6,Chatham,1994,2938611
+6,Chatham,1995,4369193
+6,Chatham,1996,4712370
+6,Chatham,1997,3441479
+6,Chatham,1998,2562921
+6,Chatham,1999,2792487
+6,Chatham,2000,3932771
+6,Chatham,2001,4376843
+8,Chicago Lawn,1990,3818555
+8,Chicago Lawn,1991,3877230
+8,Chicago Lawn,1992,3651115
+8,Chicago Lawn,1993,3400398
+8,Chicago Lawn,1994,4235006
+8,Chicago Lawn,1995,6084527
+8,Chicago Lawn,1996,6913320
+8,Chicago Lawn,1997,6100553
+8,Chicago Lawn,1998,4208690
+8,Chicago Lawn,1999,3992896
+8,Chicago Lawn,2000,5497254
+8,Chicago Lawn,2001,6758752
+2,Clearing,1990,2971028
+2,Clearing,1991,2845375
+2,Clearing,1992,2620741
+2,Clearing,1993,2663097
+2,Clearing,1994,3811635
+2,Clearing,1995,5848845
+2,Clearing,1996,7103045
+2,Clearing,1997,5869274
+2,Clearing,1998,3549871
+2,Clearing,1999,2943445
+2,Clearing,2000,3802247
+2,Clearing,2001,4644718
+4,Douglas,1990,205570
+4,Douglas,1991,223271
+4,Douglas,1992,232212
+4,Douglas,1993,212802
+4,Douglas,1994,221345
+4,Douglas,1995,274823
+4,Douglas,1996,405623
+4,Douglas,1997,386517
+4,Douglas,1998,290081
+4,Douglas,1999,244529
+4,Douglas,2000,280536
+4,Douglas,2001,376769
+2,Dunning,1990,4974358
+2,Dunning,1991,4924720
+2,Dunning,1992,4875524
+2,Dunning,1993,4910954
+2,Dunning,1994,7129643
+2,Dunning,1995,11080824
+2,Dunning,1996,12664230
+2,Dunning,1997,9243593
+2,Dunning,1998,5737818
+2,Dunning,1999,5265624
+2,Dunning,2000,7994275
+2,Dunning,2001,9096152
+8,East Garfield Park,1990,288485
+8,East Garfield Park,1991,356702
+8,East Garfield Park,1992,367543
+8,East Garfield Park,1993,353220
+8,East Garfield Park,1994,386055
+8,East Garfield Park,1995,455603
+8,East Garfield Park,1996,603608
+8,East Garfield Park,1997,596187
+8,East Garfield Park,1998,531927
+8,East Garfield Park,1999,404218
+8,East Garfield Park,2000,513719
+8,East Garfield Park,2001,682082
+6,East Side,1990,1824559
+6,East Side,1991,1865146
+6,East Side,1992,1717434
+6,East Side,1993,1809000
+6,East Side,1994,2853422
+6,East Side,1995,4207203
+6,East Side,1996,4532516
+6,East Side,1997,3067535
+6,East Side,1998,2097517
+6,East Side,1999,2108661
+6,East Side,2000,3026865
+6,East Side,2001,2948448
+1,Edgewater,1990,997214
+1,Edgewater,1991,979511
+1,Edgewater,1992,894805
+1,Edgewater,1993,972340
+1,Edgewater,1994,1311449
+1,Edgewater,1995,1929889
+1,Edgewater,1996,1892274
+1,Edgewater,1997,1438660
+1,Edgewater,1998,1046163
+1,Edgewater,1999,1037334
+1,Edgewater,2000,1652946
+1,Edgewater,2001,1546951
+0,Edison Park,1990,1459743
+0,Edison Park,1991,1534699
+0,Edison Park,1992,1599379
+0,Edison Park,1993,1830382
+0,Edison Park,1994,2562310
+0,Edison Park,1995,3783283
+0,Edison Park,1996,4041732
+0,Edison Park,1997,2574719
+0,Edison Park,1998,1651591
+0,Edison Park,1999,1923201
+0,Edison Park,2000,2550580
+0,Edison Park,2001,2639057
+9,Englewood,1990,1053336
+9,Englewood,1991,1108773
+9,Englewood,1992,1092184
+9,Englewood,1993,1015849
+9,Englewood,1994,1128511
+9,Englewood,1995,1478326
+9,Englewood,1996,1706081
+9,Englewood,1997,1575149
+9,Englewood,1998,1187933
+9,Englewood,1999,1282526
+9,Englewood,2000,1744779
+9,Englewood,2001,2121136
+1,Forest Glen,1990,3356189
+1,Forest Glen,1991,3469286
+1,Forest Glen,1992,3139434
+1,Forest Glen,1993,3454316
+1,Forest Glen,1994,5021566
+1,Forest Glen,1995,7605882
+1,Forest Glen,1996,7388496
+1,Forest Glen,1997,5066595
+1,Forest Glen,1998,3256558
+1,Forest Glen,1999,3741983
+1,Forest Glen,2000,5641992
+1,Forest Glen,2001,5543172
+9,Fuller Park,1990,140084
+9,Fuller Park,1991,140909
+9,Fuller Park,1992,131239
+9,Fuller Park,1993,129811
+9,Fuller Park,1994,143283
+9,Fuller Park,1995,163478
+9,Fuller Park,1996,203213
+9,Fuller Park,1997,210063
+9,Fuller Park,1998,145761
+9,Fuller Park,1999,141123
+9,Fuller Park,2000,196469
+9,Fuller Park,2001,241591
+9,Gage Park,1990,2188600
+9,Gage Park,1991,2485715
+9,Gage Park,1992,2368102
+9,Gage Park,1993,2189159
+9,Gage Park,1994,2535501
+9,Gage Park,1995,3675675
+9,Gage Park,1996,4649227
+9,Gage Park,1997,4526735
+9,Gage Park,1998,2960478
+9,Gage Park,1999,2516028
+9,Gage Park,2000,3146074
+9,Gage Park,2001,4136149
+3,Garfield Ridge,1990,5440581
+3,Garfield Ridge,1991,5105410
+3,Garfield Ridge,1992,4565215
+3,Garfield Ridge,1993,4832740
+3,Garfield Ridge,1994,6313755
+3,Garfield Ridge,1995,9907841
+3,Garfield Ridge,1996,12077317
+3,Garfield Ridge,1997,11088536
+3,Garfield Ridge,1998,6371999
+3,Garfield Ridge,1999,5270089
+3,Garfield Ridge,2000,6380474
+3,Garfield Ridge,2001,8043177
+5,Grand Boulevard,1990,363099
+5,Grand Boulevard,1991,357753
+5,Grand Boulevard,1992,342434
+5,Grand Boulevard,1993,332937
+5,Grand Boulevard,1994,358705
+5,Grand Boulevard,1995,449053
+5,Grand Boulevard,1996,567180
+5,Grand Boulevard,1997,583096
+5,Grand Boulevard,1998,414542
+5,Grand Boulevard,1999,375427
+5,Grand Boulevard,2000,463874
+5,Grand Boulevard,2001,621839
+6,Greater Grand Crossing,1990,1584101
+6,Greater Grand Crossing,1991,1713985
+6,Greater Grand Crossing,1992,1581372
+6,Greater Grand Crossing,1993,1494547
+6,Greater Grand Crossing,1994,1705481
+6,Greater Grand Crossing,1995,2385439
+6,Greater Grand Crossing,1996,2580839
+6,Greater Grand Crossing,1997,2317133
+6,Greater Grand Crossing,1998,1642015
+6,Greater Grand Crossing,1999,1787336
+6,Greater Grand Crossing,2000,2377466
+6,Greater Grand Crossing,2001,3053422
+4,Hegewisch,1990,912551
+4,Hegewisch,1991,1062984
+4,Hegewisch,1992,1021201
+4,Hegewisch,1993,1239298
+4,Hegewisch,1994,1498779
+4,Hegewisch,1995,2135862
+4,Hegewisch,1996,2846479
+4,Hegewisch,1997,2541610
+4,Hegewisch,1998,1753626
+4,Hegewisch,1999,1368118
+4,Hegewisch,2000,1530232
+4,Hegewisch,2001,1785118
+7,Hermosa,1990,1065122
+7,Hermosa,1991,1129014
+7,Hermosa,1992,1201684
+7,Hermosa,1993,1062621
+7,Hermosa,1994,1281642
+7,Hermosa,1995,1913940
+7,Hermosa,1996,2216789
+7,Hermosa,1997,2043571
+7,Hermosa,1998,1322349
+7,Hermosa,1999,1255329
+7,Hermosa,2000,1742293
+7,Hermosa,2001,2117216
+8,Humboldt Park,1990,1759288
+8,Humboldt Park,1991,1973597
+8,Humboldt Park,1992,1799493
+8,Humboldt Park,1993,1671437
+8,Humboldt Park,1994,2003509
+8,Humboldt Park,1995,2511714
+8,Humboldt Park,1996,3140736
+8,Humboldt Park,1997,3167417
+8,Humboldt Park,1998,2129202
+8,Humboldt Park,1999,1879968
+8,Humboldt Park,2000,2578552
+8,Humboldt Park,2001,3370589
+1,Hyde Park,1990,696859
+1,Hyde Park,1991,661764
+1,Hyde Park,1992,613670
+1,Hyde Park,1993,600735
+1,Hyde Park,1994,706892
+1,Hyde Park,1995,1018036
+1,Hyde Park,1996,1294581
+1,Hyde Park,1997,1234294
+1,Hyde Park,1998,784263
+1,Hyde Park,1999,671283
+1,Hyde Park,2000,886185
+1,Hyde Park,2001,1080036
+3,Irving Park,1990,2870592
+3,Irving Park,1991,2767799
+3,Irving Park,1992,2557179
+3,Irving Park,1993,2606972
+3,Irving Park,1994,3532198
+3,Irving Park,1995,5622579
+3,Irving Park,1996,6270110
+3,Irving Park,1997,4675439
+3,Irving Park,1998,3082379
+3,Irving Park,1999,3078598
+3,Irving Park,2000,4453531
+3,Irving Park,2001,4951889
+2,Jefferson Park,1990,2549070
+2,Jefferson Park,1991,2542396
+2,Jefferson Park,1992,2481132
+2,Jefferson Park,1993,2622873
+2,Jefferson Park,1994,3648875
+2,Jefferson Park,1995,6013941
+2,Jefferson Park,1996,6124391
+2,Jefferson Park,1997,4063358
+2,Jefferson Park,1998,2698141
+2,Jefferson Park,1999,2909653
+2,Jefferson Park,2000,4322171
+2,Jefferson Park,2001,3978219
+2,Kenwood,1990,624003
+2,Kenwood,1991,593029
+2,Kenwood,1992,516171
+2,Kenwood,1993,504962
+2,Kenwood,1994,650909
+2,Kenwood,1995,838983
+2,Kenwood,1996,1066496
+2,Kenwood,1997,1073976
+2,Kenwood,1998,742218
+2,Kenwood,1999,593656
+2,Kenwood,2000,715098
+2,Kenwood,2001,931289
+0,Lakeview,1990,2101198
+0,Lakeview,1991,2137946
+0,Lakeview,1992,2024097
+0,Lakeview,1993,1978370
+0,Lakeview,1994,2688777
+0,Lakeview,1995,4159693
+0,Lakeview,1996,4658931
+0,Lakeview,1997,3739785
+0,Lakeview,1998,2593883
+0,Lakeview,1999,2368829
+0,Lakeview,2000,3095035
+0,Lakeview,2001,3684115
+0,Lincoln Park,1990,1993904
+0,Lincoln Park,1991,2001910
+0,Lincoln Park,1992,1848906
+0,Lincoln Park,1993,1805255
+0,Lincoln Park,1994,2362761
+0,Lincoln Park,1995,3223562
+0,Lincoln Park,1996,3851449
+0,Lincoln Park,1997,3552024
+0,Lincoln Park,1998,2448395
+0,Lincoln Park,1999,2212196
+0,Lincoln Park,2000,2687794
+0,Lincoln Park,2001,3310945
+1,Lincoln Square,1990,1286630
+1,Lincoln Square,1991,1300335
+1,Lincoln Square,1992,1238987
+1,Lincoln Square,1993,1296068
+1,Lincoln Square,1994,1752056
+1,Lincoln Square,1995,2732636
+1,Lincoln Square,1996,2809047
+1,Lincoln Square,1997,2129213
+1,Lincoln Square,1998,1460644
+1,Lincoln Square,1999,1442449
+1,Lincoln Square,2000,2116281
+1,Lincoln Square,2001,2173869
+2,Logan Square,1990,2007145
+2,Logan Square,1991,1982890
+2,Logan Square,1992,1913764
+2,Logan Square,1993,1815902
+2,Logan Square,1994,2310636
+2,Logan Square,1995,3398410
+2,Logan Square,1996,3999605
+2,Logan Square,1997,3758546
+2,Logan Square,1998,2405807
+2,Logan Square,1999,2329500
+2,Logan Square,2000,2857834
+2,Logan Square,2001,3437790
+0,Loop,1990,690
+0,Loop,1991,887
+0,Loop,1992,1248
+0,Loop,1993,881
+0,Loop,1994,1724
+0,Loop,1995,1910
+0,Loop,1996,2020
+0,Loop,1997,1439
+0,Loop,1998,620
+0,Loop,1999,371
+0,Loop,2000,2386
+0,Loop,2001,1112
+7,Lower West Side,1990,521532
+7,Lower West Side,1991,616947
+7,Lower West Side,1992,596923
+7,Lower West Side,1993,565018
+7,Lower West Side,1994,639652
+7,Lower West Side,1995,766717
+7,Lower West Side,1996,1116455
+7,Lower West Side,1997,1114392
+7,Lower West Side,1998,870985
+7,Lower West Side,1999,675927
+7,Lower West Side,2000,793960
+7,Lower West Side,2001,1099381
+6,McKinley Park,1990,645935
+6,McKinley Park,1991,744021
+6,McKinley Park,1992,731429
+6,McKinley Park,1993,654422
+6,McKinley Park,1994,706977
+6,McKinley Park,1995,942661
+6,McKinley Park,1996,1405489
+6,McKinley Park,1997,1442676
+6,McKinley Park,1998,1031942
+6,McKinley Park,1999,761028
+6,McKinley Park,2000,926182
+6,McKinley Park,2001,1177515
+5,Montclare,1990,1087214
+5,Montclare,1991,1164142
+5,Montclare,1992,1133747
+5,Montclare,1993,1055486
+5,Montclare,1994,1377654
+5,Montclare,1995,2227961
+5,Montclare,1996,2704384
+5,Montclare,1997,2014520
+5,Montclare,1998,1296957
+5,Montclare,1999,1195255
+5,Montclare,2000,1673721
+5,Montclare,2001,1960525
+3,Morgan Park,1990,3618152
+3,Morgan Park,1991,3393413
+3,Morgan Park,1992,3284388
+3,Morgan Park,1993,3416780
+3,Morgan Park,1994,5157047
+3,Morgan Park,1995,7083718
+3,Morgan Park,1996,6834679
+3,Morgan Park,1997,4770391
+3,Morgan Park,1998,3321495
+3,Morgan Park,1999,4134572
+3,Morgan Park,2000,5664147
+3,Morgan Park,2001,5614953
+1,Mount Greenwood,1990,2839535
+1,Mount Greenwood,1991,3170829
+1,Mount Greenwood,1992,2901244
+1,Mount Greenwood,1993,3223285
+1,Mount Greenwood,1994,5161412
+1,Mount Greenwood,1995,7133184
+1,Mount Greenwood,1996,7993124
+1,Mount Greenwood,1997,5518795
+1,Mount Greenwood,1998,3837596
+1,Mount Greenwood,1999,3582553
+1,Mount Greenwood,2000,4857354
+1,Mount Greenwood,2001,5045870
+0,Near North Side,1990,716090
+0,Near North Side,1991,674510
+0,Near North Side,1992,635199
+0,Near North Side,1993,594099
+0,Near North Side,1994,852459
+0,Near North Side,1995,1160682
+0,Near North Side,1996,1380821
+0,Near North Side,1997,1375412
+0,Near North Side,1998,927074
+0,Near North Side,1999,789084
+0,Near North Side,2000,914490
+0,Near North Side,2001,1153718
+0,Near South Side,1990,463881
+0,Near South Side,1991,462957
+0,Near South Side,1992,392382
+0,Near South Side,1993,340157
+0,Near South Side,1994,479085
+0,Near South Side,1995,620650
+0,Near South Side,1996,929164
+0,Near South Side,1997,833293
+0,Near South Side,1998,599562
+0,Near South Side,1999,412039
+0,Near South Side,2000,516570
+0,Near South Side,2001,683211
+1,Near West Side,1990,932580
+1,Near West Side,1991,1027999
+1,Near West Side,1992,929834
+1,Near West Side,1993,846674
+1,Near West Side,1994,1038340
+1,Near West Side,1995,1344633
+1,Near West Side,1996,1922558
+1,Near West Side,1997,1775792
+1,Near West Side,1998,1399868
+1,Near West Side,1999,1003750
+1,Near West Side,2000,1196205
+1,Near West Side,2001,1635713
+9,New City,1990,1729163
+9,New City,1991,1675226
+9,New City,1992,1495257
+9,New City,1993,1535329
+9,New City,1994,1768577
+9,New City,1995,2321553
+9,New City,1996,3017809
+9,New City,1997,3022131
+9,New City,1998,1941275
+9,New City,1999,1608771
+9,New City,2000,2190887
+9,New City,2001,2838834
+6,North Center,1990,1902126
+6,North Center,1991,1934049
+6,North Center,1992,1763553
+6,North Center,1993,1803174
+6,North Center,1994,2402879
+6,North Center,1995,3800702
+6,North Center,1996,4296419
+6,North Center,1997,3303461
+6,North Center,1998,2246738
+6,North Center,1999,2130225
+6,North Center,2000,2894785
+6,North Center,2001,3337444
+8,North Lawndale,1990,529133
+8,North Lawndale,1991,651739
+8,North Lawndale,1992,653066
+8,North Lawndale,1993,585979
+8,North Lawndale,1994,662899
+8,North Lawndale,1995,779578
+8,North Lawndale,1996,1086144
+8,North Lawndale,1997,1113432
+8,North Lawndale,1998,895048
+8,North Lawndale,1999,676120
+8,North Lawndale,2000,949215
+8,North Lawndale,2001,1220394
+3,North Park,1990,1394146
+3,North Park,1991,1406264
+3,North Park,1992,1297981
+3,North Park,1993,1457164
+3,North Park,1994,1973754
+3,North Park,1995,3118286
+3,North Park,1996,2986381
+3,North Park,1997,2185224
+3,North Park,1998,1402804
+3,North Park,1999,1425155
+3,North Park,2000,2273064
+3,North Park,2001,2060951
+2,Norwood Park,1990,5380151
+2,Norwood Park,1991,5178308
+2,Norwood Park,1992,4997125
+2,Norwood Park,1993,5591938
+2,Norwood Park,1994,8666729
+2,Norwood Park,1995,13187382
+2,Norwood Park,1996,12769093
+2,Norwood Park,1997,8452241
+2,Norwood Park,1998,5463807
+2,Norwood Park,1999,5709013
+2,Norwood Park,2000,9183156
+2,Norwood Park,2001,8386088
+7,O'Hare,1990,314264
+7,O'Hare,1991,326632
+7,O'Hare,1992,374818
+7,O'Hare,1993,379296
+7,O'Hare,1994,635190
+7,O'Hare,1995,961574
+7,O'Hare,1996,961395
+7,O'Hare,1997,555710
+7,O'Hare,1998,320390
+7,O'Hare,1999,465881
+7,O'Hare,2000,631855
+7,O'Hare,2001,527695
+2,Oakland,1990,113099
+2,Oakland,1991,116363
+2,Oakland,1992,98871
+2,Oakland,1993,98269
+2,Oakland,1994,99833
+2,Oakland,1995,133324
+2,Oakland,1996,170538
+2,Oakland,1997,164606
+2,Oakland,1998,124751
+2,Oakland,1999,98708
+2,Oakland,2000,134465
+2,Oakland,2001,191697
+3,Portage Park,1990,5271252
+3,Portage Park,1991,5521034
+3,Portage Park,1992,5248760
+3,Portage Park,1993,5300169
+3,Portage Park,1994,7020911
+3,Portage Park,1995,10860181
+3,Portage Park,1996,12949381
+3,Portage Park,1997,9228777
+3,Portage Park,1998,5957638
+3,Portage Park,1999,6194813
+3,Portage Park,2000,8413842
+3,Portage Park,2001,9380580
+5,Pullman,1990,672698
+5,Pullman,1991,672499
+5,Pullman,1992,649368
+5,Pullman,1993,611596
+5,Pullman,1994,815736
+5,Pullman,1995,1237693
+5,Pullman,1996,1279877
+5,Pullman,1997,867342
+5,Pullman,1998,747347
+5,Pullman,1999,764718
+5,Pullman,2000,1182671
+5,Pullman,2001,1083548
+9,Riverdale,1990,95634
+9,Riverdale,1991,154278
+9,Riverdale,1992,150778
+9,Riverdale,1993,127261
+9,Riverdale,1994,143339
+9,Riverdale,1995,178017
+9,Riverdale,1996,234849
+9,Riverdale,1997,213416
+9,Riverdale,1998,169093
+9,Riverdale,1999,136881
+9,Riverdale,2000,218063
+9,Riverdale,2001,262263
+3,Rogers Park,1990,673068
+3,Rogers Park,1991,738811
+3,Rogers Park,1992,692042
+3,Rogers Park,1993,709248
+3,Rogers Park,1994,951249
+3,Rogers Park,1995,1338726
+3,Rogers Park,1996,1329085
+3,Rogers Park,1997,1059482
+3,Rogers Park,1998,759775
+3,Rogers Park,1999,846201
+3,Rogers Park,2000,1146657
+3,Rogers Park,2001,1215168
+5,Roseland,1990,5186953
+5,Roseland,1991,5020328
+5,Roseland,1992,4534698
+5,Roseland,1993,4509452
+5,Roseland,1994,6039745
+5,Roseland,1995,8610255
+5,Roseland,1996,8735114
+5,Roseland,1997,6103833
+5,Roseland,1998,4909811
+5,Roseland,1999,5295504
+5,Roseland,2000,8747356
+5,Roseland,2001,8000283
+7,South Chicago,1990,1699290
+7,South Chicago,1991,1770708
+7,South Chicago,1992,1816157
+7,South Chicago,1993,1638761
+7,South Chicago,1994,1992238
+7,South Chicago,1995,2722646
+7,South Chicago,1996,3109051
+7,South Chicago,1997,2597525
+7,South Chicago,1998,1955417
+7,South Chicago,1999,2069841
+7,South Chicago,2000,2867581
+7,South Chicago,2001,3361056
+6,South Deering,1990,1676670
+6,South Deering,1991,1700448
+6,South Deering,1992,1555626
+6,South Deering,1993,1452140
+6,South Deering,1994,2130743
+6,South Deering,1995,3267084
+6,South Deering,1996,3272534
+6,South Deering,1997,2212051
+6,South Deering,1998,1725521
+6,South Deering,1999,1785874
+6,South Deering,2000,2783813
+6,South Deering,2001,2624712
+9,South Lawndale,1990,1821081
+9,South Lawndale,1991,2114052
+9,South Lawndale,1992,2021291
+9,South Lawndale,1993,1859443
+9,South Lawndale,1994,1990772
+9,South Lawndale,1995,2483152
+9,South Lawndale,1996,3560673
+9,South Lawndale,1997,3615722
+9,South Lawndale,1998,2749901
+9,South Lawndale,1999,2096288
+9,South Lawndale,2000,2578783
+9,South Lawndale,2001,3706991
+5,South Shore,1990,1681954
+5,South Shore,1991,1630175
+5,South Shore,1992,1647898
+5,South Shore,1993,1577383
+5,South Shore,1994,1754528
+5,South Shore,1995,2467983
+5,South Shore,1996,2725692
+5,South Shore,1997,2432296
+5,South Shore,1998,1776373
+5,South Shore,1999,1863806
+5,South Shore,2000,2431640
+5,South Shore,2001,2980564
+2,Uptown,1990,589269
+2,Uptown,1991,600417
+2,Uptown,1992,597661
+2,Uptown,1993,574617
+2,Uptown,1994,807196
+2,Uptown,1995,1203544
+2,Uptown,1996,1318918
+2,Uptown,1997,966215
+2,Uptown,1998,677941
+2,Uptown,1999,682110
+2,Uptown,2000,959305
+2,Uptown,2001,1062466
+4,Washington Heights,1990,3895758
+4,Washington Heights,1991,3912967
+4,Washington Heights,1992,3608003
+4,Washington Heights,1993,3463065
+4,Washington Heights,1994,4575094
+4,Washington Heights,1995,7019983
+4,Washington Heights,1996,6852536
+4,Washington Heights,1997,4862298
+4,Washington Heights,1998,3956551
+4,Washington Heights,1999,4254431
+4,Washington Heights,2000,6471878
+4,Washington Heights,2001,6025685
+8,Washington Park,1990,65924
+8,Washington Park,1991,70653
+8,Washington Park,1992,74255
+8,Washington Park,1993,69014
+8,Washington Park,1994,82751
+8,Washington Park,1995,102294
+8,Washington Park,1996,122548
+8,Washington Park,1997,131787
+8,Washington Park,1998,94144
+8,Washington Park,1999,92068
+8,Washington Park,2000,121436
+8,Washington Park,2001,143243
+6,West Elsdon,1990,1514255
+6,West Elsdon,1991,1612830
+6,West Elsdon,1992,1416086
+6,West Elsdon,1993,1377943
+6,West Elsdon,1994,1779534
+6,West Elsdon,1995,3045394
+6,West Elsdon,1996,3679825
+6,West Elsdon,1997,3568672
+6,West Elsdon,1998,1869317
+6,West Elsdon,1999,1584545
+6,West Elsdon,2000,1879154
+6,West Elsdon,2001,2440256
+8,West Englewood,1990,2836211
+8,West Englewood,1991,2853663
+8,West Englewood,1992,2645705
+8,West Englewood,1993,2606793
+8,West Englewood,1994,2948720
+8,West Englewood,1995,3871048
+8,West Englewood,1996,4256890
+8,West Englewood,1997,3875447
+8,West Englewood,1998,2901114
+8,West Englewood,1999,3098259
+8,West Englewood,2000,4257058
+8,West Englewood,2001,5000594
+9,West Garfield Park,1990,276607
+9,West Garfield Park,1991,361070
+9,West Garfield Park,1992,367084
+9,West Garfield Park,1993,330662
+9,West Garfield Park,1994,350626
+9,West Garfield Park,1995,421046
+9,West Garfield Park,1996,550303
+9,West Garfield Park,1997,541963
+9,West Garfield Park,1998,465258
+9,West Garfield Park,1999,359350
+9,West Garfield Park,2000,472210
+9,West Garfield Park,2001,679233
+5,West Lawn,1990,3174207
+5,West Lawn,1991,2981549
+5,West Lawn,1992,2960912
+5,West Lawn,1993,2822540
+5,West Lawn,1994,4082920
+5,West Lawn,1995,6486241
+5,West Lawn,1996,7574645
+5,West Lawn,1997,5970525
+5,West Lawn,1998,3569628
+5,West Lawn,1999,3179880
+5,West Lawn,2000,4140956
+5,West Lawn,2001,5134469
+6,West Pullman,1990,2208287
+6,West Pullman,1991,3607984
+6,West Pullman,1992,3436214
+6,West Pullman,1993,3610056
+6,West Pullman,1994,4044485
+6,West Pullman,1995,5010362
+6,West Pullman,1996,6582320
+6,West Pullman,1997,6247638
+6,West Pullman,1998,4453040
+6,West Pullman,1999,3982551
+6,West Pullman,2000,4763965
+6,West Pullman,2001,6333648
+4,West Ridge,1990,3143685
+4,West Ridge,1991,3079706
+4,West Ridge,1992,3016129
+4,West Ridge,1993,3336033
+4,West Ridge,1994,4623462
+4,West Ridge,1995,6820288
+4,West Ridge,1996,6786269
+4,West Ridge,1997,4893601
+4,West Ridge,1998,3311901
+4,West Ridge,1999,3390303
+4,West Ridge,2000,4704247
+4,West Ridge,2001,4758738
+1,West Town,1990,2170748
+1,West Town,1991,2425007
+1,West Town,1992,2206951
+1,West Town,1993,2236376
+1,West Town,1994,2838452
+1,West Town,1995,3960961
+1,West Town,1996,5012785
+1,West Town,1997,4893234
+1,West Town,1998,3468993
+1,West Town,1999,2784487
+1,West Town,2000,3305007
+1,West Town,2001,4326340
+5,Woodlawn,1990,351503
+5,Woodlawn,1991,338283
+5,Woodlawn,1992,328559
+5,Woodlawn,1993,323616
+5,Woodlawn,1994,371611
+5,Woodlawn,1995,513793
+5,Woodlawn,1996,608381
+5,Woodlawn,1997,584330
+5,Woodlawn,1998,420166
+5,Woodlawn,1999,400796
+5,Woodlawn,2000,524141
+5,Woodlawn,2001,623327
