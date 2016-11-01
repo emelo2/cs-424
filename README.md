@@ -19,12 +19,11 @@ We have three visualizations which are a choropleth, a bar graph, and a streamgr
 
 After discussing our ideas with Dr. Tony Fast, he gave us the suggestion of utilizing a choropleth for our data. This inspired us to look into this visualization technique and the possibilities available through its utilization. The choropleth visualization incorporates the electricity consumption data, the hardship index data, and the per capita income of each neighborhood. Each neighborhood is a specific value of blue in relation to the amount of energy consumption. The darker the blue, the more electricity has been used. Upon mousing over each neighborhood, a tooltip is revealed that displays the name of the neighborhood, its hardship rank, and its per capita income. Additionally, clicking any of the neighborhoods will highlight that neighborhood in the bar graph with a bright red, clearly visualizing that neighborhood’s socioeconomic status in comparison to all the others.  
 ![alt tag](https://github.com/emelo2/cs-424/blob/master/images/1.jpg?raw=true)
-The bright red highlight appears when a neighborhood is clicked on.
 
 
 The bargraph is scaled in a way that it is very clear to see the differences of income between neighborhood. The user can choose any bar and a tooltip is revealed displaying the name of the neighborhood. An interesting outlier is the Loop, which seems to have used little to no electricity. However, we can easily deduce that, since our data only focuses on single family households, there exists a skew in the amount of electricity used for the loop because the loop contains very few single family homes. 
 
-
+![alt tag](https://github.com/emelo2/cs-424/blob/master/images/2.jpg?raw=true)
 
 The loop only has a recorded 15,288 kWh recorded, but that is because of the lack of single family homes in that area.
 
