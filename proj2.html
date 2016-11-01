@@ -43,7 +43,8 @@
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
-
+    var colorDomain = [15288,12162735,24310183, 36457630, 48605077, 60752524, 72899971, 85047418, 97194866];
+    var legendLabels = ["< 15288" , "12162735+","24310183+" ,"36457630+", "48605077+", "60752524+", "72899971+", "85047418+", ">97194866"];
     var color = d3.scaleThreshold()
                 .range(["rgb(247,251,255)","rgb(222,235,247)","rgb(198,219,239)","rgb(158,202,225)","rgb(107,174,214)"
                   ,"rgb(66,146,198)","rgb(33,113,181)","rgb(8,81,156)","rgb(8,48,107)","rgb(0,0,0)"]);
@@ -73,7 +74,7 @@
           else{
             //console.log(data);
               color.domain(
-                [15288,12162735,24310183, 36457630, 48605077, 60752524, 72899971, 85047418, 97194866]
+                colorDomain
               );
               /*
                 d3.min(data, function(d) { return d.Total; }), 
@@ -207,8 +208,30 @@
 
           }
 
+          var legend = canvas.selectAll("g.legend")
+  .data(colorDomain)
+  .enter().append("g")
+  .attr("class", "legend");
+
+  var ls_w = 20, ls_h = 20;
+
+  legend.append("rect")
+  .attr("x", 20)
+  .attr("y", function(d, i){ return height - (i*ls_h) - 2*ls_h;})
+  .attr("width", ls_w)
+  .attr("height", ls_h)
+  .style("fill", function(d, i) { return color(d); })
+  .style("opacity", 0.8);
+
+  legend.append("text")
+  .attr("x", 50)
+  .attr("y", function(d, i){ return height - (i*ls_h) - ls_h - 4;})
+  .text(function(d, i){ return legendLabels[i]; });
+
+
 
       });
+
 
     function highlightBar(neigh){
       d3.csv("socioeconomicStatus.csv", function(error, data)
