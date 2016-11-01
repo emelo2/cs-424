@@ -20,6 +20,8 @@
         border-radius: 10px;
         pointer-events: none;
       } 
+
+
     </style>
   </head>
 <body>
@@ -28,14 +30,19 @@
   /*
     Use D3 to load the GeoJSON file
     */
-    var width = 800;
-    var height = 600;
-
+    var width = 400;
+    var height = 400;
+    var margin = {top: 15, right: 10, bottom: 15, left: 50},
+      width = 500 - margin.left - margin.right,
+      height = 500 - margin.top - margin.bottom;
 
     var canvas = d3.select("body")
       .append("svg")
-      .attr("width", 900)
-      .attr("height", 760)
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
 
 
     var color = d3.scaleThreshold()
@@ -130,8 +137,9 @@
 
               var bounds = path.bounds(json);
 
-              var scale = .95 / Math.max((bounds[1][0] - bounds[0][0]) / width,
+              var scale = .60 / Math.max((bounds[1][0] - bounds[0][0]) / width,
                 (bounds[1][1] - bounds[0][1]) / height);
+
 
               var transl = [(width - scale * (bounds[1][0] + bounds[0][0])) / 2,
                 (height - scale * (bounds[1][1] + bounds[0][1])) / 2];
@@ -163,7 +171,7 @@
                       .style("opacity", 1);
                     div.transition().duration(300)
                       .style("opacity", 1)
-                    div.html(d.properties.community + "<br/>" + " hardship rank: " + d.properties.rank + "<br/>" + " per Capita Income " + d.properties.in)
+                    div.html(d.properties.community + "<br/>" + " hardship rank: " + d.properties.rank + "<br/>" + " per Capita Income: " + d.properties.in)
                       .style("left", (d3.event.pageX) + "px")
                       .style("top", (d3.event.pageY -30) + "px");
                 })
@@ -198,6 +206,59 @@
 
 
       });
+
+    
+
+    var x = d3.scaleBand()
+      .range([0, width])
+      .padding(0.1);
+    var y = d3.scaleLinear()
+      .range([height, 0]);
+
+    var svg = d3.select("body")
+      .append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top )
+      .append("g")
+      .attr("transform", "translate(" + (margin.left-20 )+ "," + (margin.top -20 )+ ")");
+
+    d3.csv("socioeconomicStatus.csv", function(error, data)
+
+    {
+      if(error){
+            console.log(error);
+          }
+      else{
+
+        //x.domain(socioData.map(function(d) { return socioData.COMMUNITY; }));
+        //y.domain([0, d3.max(socioData, function(d) { return socioData.INCOME; })]);
+
+          x.domain(data.map(function(d) { return d.COMMUNITY; }));
+          y.domain([0, d3.max(data, function(d) { return d.INCOME; })]);
+
+  // append the rectangles for the bar chart
+        svg.selectAll(".bar")
+          .data(data)
+          .enter().append("rect")
+          .attr("class", "bar")
+          .attr("x", function(d) { return x(d.COMMUNITY); })
+          .attr("width", x.bandwidth())
+          .attr("y", function(d) { return y(d.INCOME); })
+          .attr("height", function(d) { return height - y(d.INCOME); });
+
+  // add the x Axis
+  svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  // add the y Axis
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+      }
+
+
+    });
 
 
 
