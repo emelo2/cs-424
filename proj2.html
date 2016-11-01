@@ -435,6 +435,12 @@ var svg = d3.select("body").append("svg")
     .attr("height", height)
     .append("g")
         .attr("transform", "translate(" + margin.left*2 + "," + margin.top +")");
+     svg.append("text")
+          	.attr("x", 100)
+          	.attr("y", 15)
+          	.attr("text-nchor", "middle")
+          	.style("font-size", "20px")
+          	.text("Energy Usage in Chicago");
 
 svg.selectAll("path")
     .data(series)
@@ -452,6 +458,7 @@ svg.selectAll("path")
       d3.select(this).style('fill', 
          d3.rgb( d3.select(this).style("fill") ).darker());
          d3.select("#major").text("Mouse over");
+
 })
 
     console.log(height)
