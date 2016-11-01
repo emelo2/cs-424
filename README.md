@@ -25,12 +25,10 @@ The bargraph is scaled in a way that it is very clear to see the differences of 
 
 ![alt tag](https://github.com/emelo2/cs-424/blob/master/images/2.jpg?raw=true)
 
-The loop only has a recorded 15,288 kWh recorded, but that is because of the lack of single family homes in that area.
-
 
 Additionally, we have a streamgraph visualization that is utilized to show electricity usage across a full year with monthly intervals of data. Because the hardship index is out of 100 and showing that many categories in the streamgraph proved to be confusing and visualized too much at the same time, the neighborhoods are grouped by intervals of 10 by hardship index. Therefore, all neighborhoods with a hardship index of under 10 are in a layer together, and so on. The streamgraph continues along a timeline across a year of data recording. Though the data is monthly, the streamgraph successfully interpolates the data, creating a visually appealing and easy-to-understand visualization. The layers are ordered sequentially such that the highest hardship indices appear towards the top of the graph. To make the differences in levels more obvious and visually appealing, there is padding in between each layer. This creates a unique ribboned look throughout the streamgraph. Throughout the year, there is a visible flux of energy usage. A notable observation that can be made by observing the streamgraph is the spike in energy usage across all neighborhoods during the month of July and again around December. This can easily be inferred to be representing the vast increase of households using air conditioning during the hottest month of the year, and an increase in the amount of electricity for holiday decorations in December. Another interesting observation is that the neighborhoods with the easiest hardship index (1-9) and the most difficult hardship index (90-100) both use roughly the same amount of electricity. Though we aren’t sure, we have inferred that perhaps electricity usage is very low in neighborhoods with high hardship indices because of the amount of time that they spend working, or perhaps it represents the difficulty for those individuals to make ends meet and pay bills, thus representing motivation to conserve electricity. Though we aren’t sure exactly why, perhaps the individuals with the easiest hardship indices spend little time at home because of how much they work. 
 
-The streamgraph’s bulges represent the increase of electricity usage across all households in the month of July and Decemer.
+![alt tag](https://github.com/emelo2/cs-424/blob/master/images/3.jpg?raw=true)
 
 
 Padding allows for an ordered, sequential color range that is still easy to understand.
