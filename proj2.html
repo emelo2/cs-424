@@ -394,7 +394,7 @@ var stack = d3.stack()
 
 var series = stack(data);
 
-var width = 900,
+var width = 650,
     height = 800;
 var margin = {top:10, bottom:60, left:20, right:40}, 
     width = width - margin.right - margin.left,
@@ -437,7 +437,7 @@ var svg = d3.select("body").append("svg")
     .append("g")
         .attr("transform", "translate(" + margin.left*2 + "," + margin.top +")");
      svg.append("text")
-          	.attr("x", 100)
+          	.attr("x",0)
           	.attr("y", 15)
           	.attr("text-nchor", "middle")
           	.style("font-size", "20px")
